@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login section</title>
+  <link rel="stylesheet" href="zebra.css">
+  <script src="zebra.js"></script>
+</head>
+<body>
+  <header></header>
+  <main>
+    <article>
+      <h3>Breaking news!</h3>
+      <br>
+      <p id="message">New messages</p>
+      <form action="">
+        <section>
+          <label for="sign-in-name">Name;</label>
+          <br>
+          <input type="text" name="sign-in-name" id="sign-in-name" placeholder="e.g; John Daniels" required>
+          <br>
+          <label for="email">Email;</label>
+          <br>
+          <input type="email" name="email" id="email" placeholder="user@domain.com" required>
+          <br>
+          <label for="address">Address</label>
+
+          <br>
+          <input type="text" name="address" id="address" placeholder="Current location">
+          <br>
+          <select name="city" id="city">
+            <option value="0">Choose a city</option>
+            <option value="1">Alabama</option>
+            <option value="2">Mexico</option>
+            <option value="3">Nairobi</option>
+            <option value="4">Kisumu</option>
+          </select>          
+          <br>
+          <label for="password">Password</label>
+          <br>
+          <input type="password" name="password" id="password" required autocomplete="123">
+          <br>
+          <p id="alert"></p>
+          <br>
+          <button type="reset">Cancel</button>
+          <button type="submit" onclick="signUp()">Sign-up</button>
+        </section>
+      </form>
+    </article>
+<article>
+  <section>
+    <ul>
+      <li id="1">Maize floor</li>
+      <li id="2">Onions</li>
+      <li id="3">Water</li>
+      <li id="4">Kales</li>
+      <li id="5">Cooking oil</li>
+      <button onclick="checkList()">Click</button>
+    </ul>
+  </section>
+</article>
+  </main>
+</body>
+</html>
